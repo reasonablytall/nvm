@@ -7,7 +7,7 @@
 # with much bash help from Matthew Ranney
 
 # "local" warning, quote expansion warning
-# shellcheck disable=SC2039,SC2016,SC2001
+# shellcheck disable=SC1001,SC2039,SC2016,SC2001
 { # this ensures the entire script is downloaded #
 
 NVM_SCRIPT_SOURCE="$_"
